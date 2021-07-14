@@ -1,0 +1,4 @@
+{ "index":{"_id": 601 }}
+{ "name": "Pepsi", "price": 10, "in_stock": 10 }
+{ "index":{"_id": 602 }}
+{ "name": "Coca Cola", "price": 10, "in_stock": 10 }
