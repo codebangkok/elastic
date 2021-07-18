@@ -1,0 +1,19 @@
+version: '3.9'
+services: 
+  opensearch:
+    container_name: opensearch
+    image: opensearchproject/opensearch
+    environment: 
+      - discovery.type=single-node
+    ports: 
+      - 9200:9200
+    volumes: 
+      - ./data:/usr/share/opensearch/data
+
+  opensearchdashboard:
+    container_name: opensearchdashboard
+    image: opensearchproject/opensearch-dashboards
+    environment: 
+      - OPENSEARCH_HOSTS=https://opensearch:9200
+    ports: 
+     - 5601:5601
