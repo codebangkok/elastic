@@ -12,3 +12,15 @@
 * [Elasticsearch for VSCode](https://marketplace.visualstudio.com/items?itemName=ria.elastic)
 * [VsCode NDJson](https://marketplace.visualstudio.com/items?itemName=adrieankhisbe.vscode-ndjson)
 * [Logstash Configuration Syntax / Language Support](https://marketplace.visualstudio.com/items?itemName=RandomChance.logstash)
+
+
+#### Java Setup
+show all java version
+```sh
+/usr/libexec/java_home -V
+```
+
+config JAVA_HOME
+```sh
+export JAVA_HOME=$(/usr/libexec/java_home -v 16)
+```
