@@ -1,0 +1,5 @@
+- pipeline.id: basic
+  path.config: "${PWD}/pipeline/basic.logstash.conf"
+
+- pipeline.id: apache
+  path.config: "${PWD}/pipeline/apache.logstash.conf"

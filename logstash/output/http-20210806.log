@@ -1,0 +1,3 @@
+{"@timestamp":"2021-08-06T09:07:45.015Z","message":"Bond","type":"http"}
+{"@timestamp":"2021-08-06T09:28:27.221Z","type":"http","message":"Hello basic"}
+{"@timestamp":"2021-08-06T09:31:18.234Z","type":"http","message":"Hello"}

@@ -1,0 +1,6 @@
+{"@timestamp":"2021-08-06T09:07:55.360Z","name":"Bond","age":18,"type":"file"}
+{"age":18,"@timestamp":"2021-08-06T09:29:45.894Z","type":"file","name":"Bond"}
+{"tags":["_jsonparsefailure"],"type":"file","message":"10","@timestamp":"2021-08-06T10:06:30.243Z","num":"10"}
+{"tags":["_jsonparsefailure","_grokparsefailure"],"type":"file","message":"x","@timestamp":"2021-08-06T10:06:37.279Z"}
+{"tags":["_jsonparsefailure"],"type":"file","message":"10 20","num2":"20","@timestamp":"2021-08-06T10:09:09.626Z","num":"10"}
+{"tags":["_jsonparsefailure","_grokparsefailure"],"type":"file","message":"10 x","@timestamp":"2021-08-06T10:09:17.664Z"}
