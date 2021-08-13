@@ -126,10 +126,15 @@ PUT _index_template/access-logs
 ## Importing data into local cluster
 ```sh
 curl localhost:9200/_bulk -H "content-type:application/x-ndjson" --data-binary "@orders.ndjson"
+```
 
+```sh
 curl localhost:9200/_bulk -H "content-type:application/x-ndjson" --data-binary "@nginx-access-logs-2020-01.ndjson"
-
+```
+```sh
 curl localhost:9200/_bulk -H "content-type:application/x-ndjson" --data-binary "@nginx-access-logs-2020-02.ndjson"
+```
 
+```sh
 curl localhost:9200/_bulk -H "content-type:application/x-ndjson" --data-binary "@nginx-access-logs-2020-03.ndjson"
 ```
