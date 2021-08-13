@@ -24,3 +24,18 @@ config JAVA_HOME
 ```sh
 export JAVA_HOME=$(/usr/libexec/java_home -v 16)
 ```
+
+### Importing test data
+
+## Importing data into local cluster
+```sh
+curl localhost:9200/products/_bulk -H "content-type:application/x-ndjson" --data-binary "@products.ndjson"
+```
+
+```sh
+curl localhost:9200/recipes/_bulk -H "content-type:application/x-ndjson" --data-binary "@recipes.ndjson"
+```
+
+```sh
+curl localhost:9200/orders/_bulk -H "content-type:application/x-ndjson" --data-binary "@orders.ndjson"
+```
