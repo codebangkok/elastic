@@ -10,7 +10,7 @@ services:
       - 9200:9200    
     volumes:           
       - ./elasticsearch-plugins.yml:/usr/share/elasticsearch/config/elasticsearch-plugins.yml
-      # - ./data:/usr/share/elasticsearch/data  
+      - ./data:/usr/share/elasticsearch/data  
 
   kibana:
     container_name: kibana
